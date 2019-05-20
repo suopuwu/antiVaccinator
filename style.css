@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto|Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.splash {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    background-color: #455A64;
+    flex-flow: column;
+}
+
+.title {
+    font-family: 'Staatliches';
+    color: skyblue;
+}
+
+.title > i {
+    font-family: 'Lobster';
+    font-size: 1.5em;
+    padding-right: 40px;
+    color: #df7f9f;
+}
+
+.subtitle {
+    font-family: 'Staatliches';
+    font-size: 0.3em;
+    color: whitesmoke;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-family: 'Roboto';
+    font-size: 1.5em;
+}
+
+.quote > i {
+    font-family: 'Staatliches';
+    font-size: 6em;
+
+}
+
+.arrow {
+    position: relative;
+    top: 300%;
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+}
