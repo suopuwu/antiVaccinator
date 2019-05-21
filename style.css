@@ -170,6 +170,6 @@ iframe {
 .footer {
     padding: 50px;
     width: calc(100% - 100px);
-    background-color: skyblue;
+    background-color: #455A64;
     color: white;
 }
