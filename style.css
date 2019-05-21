@@ -173,3 +173,40 @@ iframe {
     background-color: #455A64;
     color: white;
 }
+
+.blogTitle {
+    color: cadetblue;
+    font-family: 'Raleway';
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.blogPost {
+    margin: 20px;
+    width: calc(80% - 40px);
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.blogSubtitle {
+    margin-left: 20px;
+    color: darkslategrey;
+}
+
+.blogSubtitle > i {
+    color: mediumvioletred;
+    cursor: pointer;
+}
+
+.blogContent {
+    padding: 20px;
+    color: darkslategrey;
+}
+
+.blogContent > i {
+    font-style: normal;
+    color: mediumvioletred;
+    cursor: pointer;
+}
