@@ -210,3 +210,26 @@ iframe {
     color: mediumvioletred;
     cursor: pointer;
 }
+
+.infoContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.infoCard {
+    flex-basis: 400px;
+}
+
+.infoCard > h2 {
+    font-size: 2em;
+    border-bottom: 1px solid grey;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.infoCard > p {
+    
+}
