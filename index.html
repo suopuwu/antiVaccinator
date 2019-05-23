@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>The Anti Vaccinator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -18,46 +20,46 @@
         </a>
     </div>
     <div class="content" id="content">
-        <span class="quote"><i>"Yes"</i>-Some guy we found, when asked about the product</span>
+        <span class="quote"><i>"Yes"</i>-Some guy we found, supposedly when asked about the product</span>
         <h1>Our story</h1>
-        <iframe width="773" height="435" src="https://www.youtube.com/embed/i7coUG8N6MY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FGqaig0H9-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <span class="quote"><i>"It really works!"</i>-Tyler Bradford</span>
 
-        <h1>The Product</h1>
         <div class="productSplash"></div>
         <div class="infoContainer">
             <span class="infoCard">
                 <h2>Easy to use</h2>
-                <p>We know that you live a busy life, so we made the Anti-Vaccinator as easy to use as possible. Simply take the syringe, find a vein (typically in your arm</p>
+                <p>We know that you live a busy life, so we made the Anti-Vaccinator as easy to use as possible. Simply take the syringe, find a vein (typically in your arm), and shoot it up.</p>
             </span>
             <span class="infoCard">
                 <h2>Completely Safe</h2>
-                <p></p>
+                <p>Dust, water, you name it. With an IP68 water resistance rating, you don't need to worry about a thing. We've thouroughly tested the product, checking the viscosity, the color, and the quality of the metal.</p>
             </span>
             <span class="infoCard">
-                <h2>o</h2>
-                <p></p>
+                <h2>Made With Love</h2>
+                <p>That's it. Love is the only ingredient used in the manufacturing of this product.</p>
             </span>
         </div>
 
         <span class="quote"><i>"I have no regrets!"</i>-Person dying from measles</span>
 
         <h2>Purchasing Options</h2>
+        <h3>Time left in free paper promotion: <i id="countDown">-20</i></h3>
         <div class="purchasingOptions">
             <span class="purchaseOption">
                 <p>Starter Pack</p><span>Enough to last you a month.</span>
-                <span class="productImage"></span>
+                <span class="productImage" id="starterPack"></span>
                 <div class="buyButton">Add To Cart</div>
             </span>
             <span class="purchaseOption">
                 <p>Deluxe Edition</p><span>Enough to last you a year and then some.</span>
-                <span class="productImage"></span>
+                <span class="productImage" id="deluxeEdition"></span>
                 <div class="buyButton">Add To Cart</div>
             </span>
             <span class="purchaseOption">
                 <p>Lifetime Supply</p><span>Enough to last you for the rest of your life.</span>
                 <!--                the joke here is that it's just going to be one syringe.-->
-                <span class="productImage"></span>
+                <span class="productImage" id="lifetimeSupply"></span>
                 <div class="buyButton">Add To Cart</div>
             </span>
         </div>
@@ -75,9 +77,9 @@
             <span class="blogContent">Your reactions are better than I could ever have imagined. From me to all of my beloved customers, I have just one thing to say to you: THANK YOU! As thanks, I'm going to host a little giveaway. I will be giving out a free lifetime supply of the Anti Vaccinator to someone who comments on this post. Simply tell me your favorite aspect of the product, and I'll choose a comment randomly in a few days. For me, I really enjoy the beautiful lavender color. It has a calming effect on me. Not to mention... <i>Read More</i></span>
         </div>
         <div class="blogPost">
-            <span class="blogTitle">My Son Has MEASLES???!??!?!!!???</span>
+            <span class="blogTitle">My Son Has CHICKENPOX???!??!?!!!???</span>
             <span class="blogSubtitle">by <i>Tyler Bradford</i> | 21 October, 2019</span>
-            <span class="blogContent">Honestly I am so upset right now, so please bear with me if this post is all over the place. At our routine checkup, my son was diagnosed with measles. At first, I wasn't sure if the doctor was lying to me or not, but when I got home, I went onto some blogs and found that he exactly matched the symptoms. Where did I go wrong?? I think he might have gotten it from the vaccines that he took before I knew about the danger. I am in tears right now, but I know that I have to stay strong for all of the people... <i>Read More</i></span>
+            <span class="blogContent">Honestly I am so upset right now, so please bear with me if this post is all over the place. At our routine checkup, my son was diagnosed with chickenpox. At first, I wasn't sure if the doctor was lying to me or not, but when I got home, I went onto some blogs and found that he exactly matched the symptoms. Where did I go wrong?? I think he might have gotten it from the vaccines that he took before I knew about the danger. I am in tears right now, but I know that I have to stay strong for all of the people... <i>Read More</i></span>
         </div>
         <div class="blogPost">
             <span class="blogTitle">Rest In Peace, Tylette.</span>
