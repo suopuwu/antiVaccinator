@@ -1,4 +1,4 @@
-var counter = 1800;
+var counter = 1690;
 var counter2 = 0;
 $(function () {
     function changeCounter() {
